@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url(./images/Home.svg);
 }
 
 .about{
@@ -25,6 +26,7 @@
   align-items: center;
   padding: 20px 40px; /* Padding lebih besar untuk navigasi */
   background-color: #f8f9fa;
+  background-image: url(./images/Home.svg);
 }
 
 /* Menu dalam navbar */
@@ -84,4 +86,8 @@
 
 .help-button:hover {
   background-color: #ff8080;
+}
+
+.about{
+  background-color: #ff5a5f;
 }
