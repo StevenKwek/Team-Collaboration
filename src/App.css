@@ -1,0 +1,118 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center; 
+} */
+
+/* Container utama */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar dengan padding */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Padding lebih besar untuk navigasi */
+  background-color: #f8f9fa;
+}
+
+/* Menu dalam navbar */
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+/* Ukuran logo diperbesar */
+.logo img {
+  width: 120px; /* Lebar logo lebih besar */
+  height: auto;
+}
+
+/* Content styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1; /* Mengisi sisa ruang di container */
+}
+
+.content h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.content span {
+  color: #ff69b4;
+}
+
+/* Tombol bantuan */
+.help-button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.help-button:hover {
+  background-color: #ff8080;
+}
