@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
+import React from 'react';
 import logo from './images/Logo_Kawachud.png'
 import './App.css';
+import SectionBaru from './about.js';
+import logo2 from './images/content home.svg'
 
 function App() {
   return (
@@ -17,14 +20,13 @@ function App() {
         <img src={logo} alt="Logo" />
         </div>
       </nav>
+
       <div className="content">
-        <h1>
-          SO YOU SUCK AT <br />
-          HANDLING YOUR <br />
-          <span>SOCIAL MEDIA?</span>
-        </h1>
+      <img src={logo2} alt="Home Content" className="content-image" />
         <button className="help-button">yes, pls help</button>
       </div>
+
+      <SectionBaru></SectionBaru>
     </div>
   );
   //   <div className="App">
