@@ -41,7 +41,7 @@ const About = () => {
           <h2>50M+</h2>
           <p>organic views</p>
         </div>
-        <div className="stat-box">
+        <div className="stat-box2">
           <h2>200.000+</h2>
           <p>organic followers</p>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
           <h2>10M+</h2>
           <p>likes</p>
         </div>
-        <div className="stat-box">
+        <div className="stat-box2">
           <h2>100.000%+</h2>
           <p>increased engagement</p>
         </div>
