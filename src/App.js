@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from './images/Logo_Kawachud.png'
+import logo from './images/Logo_Kawachud.svg';
 import './App.css';
-import logo2 from './images/content home.svg'
+import logo2 from './images/content home.svg';
 import About from './about.js';
+import button1 from './images/button help.svg';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
 
       <div className="content">
       <img src={logo2} alt="Home Content" className="content-image" />
-        <button className="help-button">yes, pls help</button>
+      <img src={button1} alt="Button Content" className="content-image2" />
+        {/* <button className="help-button">yes, pls help</button> */}
       </div>
 
       <About></About>

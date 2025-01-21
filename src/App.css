@@ -36,10 +36,14 @@
   font-size: 14px;
   text-transform: lowercase;
 }
+.nav-icon {
+  width: 40px;  
+  height: auto;
+}
 
-/* Ukuran logo diperbesar */
+
 .logo img {
-  width: 120px; /* Lebar logo lebih besar */
+  width: 220px; 
   height: auto;
 }
 
@@ -53,6 +57,18 @@
   text-align: center;
   flex-grow: 1; 
   overflow-y: auto;
+}
+
+.content-image2 {
+  margin-top: 45px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.content-image2:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
 }
 
 .content h1 {
