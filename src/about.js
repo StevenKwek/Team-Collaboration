@@ -1,40 +1,61 @@
 import React from 'react';
+import './App.css';
+import image1 from './images/talk of the town.svg';
+import image2 from './images/indonesia globally.svg';
+import image3 from './images/read more.svg'; 
 
-const SectionBaru = () => {
-    return (
-<section className="about" id="about">
-<div>In the mission to make your brand
-<b><p className="subline1">talk of the town</p></b>
-</div>
+const About = () => {
+  const handleReadMoreClick = () => {
+    window.location.href = '/read-more'; 
+  };
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
-    Ut enim ad minim veniam, <br />
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />
-    Excepteur sint occaecat cupidatat non proident, <br />
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  return (
+    <section>
+      <div className="image-text-container">
+        <div className="image-container">
+          <img
+            src={image1}
+            alt="Mission to make your brand the talk of the town"
+          />
+        </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
-    Ut enim ad minim veniam, <br />
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />
-    Excepteur sint occaecat cupidatat non proident, <br />
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div className="image-container">
+          <img
+            src={image2}
+            alt="Based in Indonesia, operating globally. We prioritize effective and real strategies..."
+          />
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
-    Ut enim ad minim veniam, <br />
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />
-    Excepteur sint occaecat cupidatat non proident, <br />
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div className="read-more">
+              <img
+                src={image3}
+                alt="Read more"
+                onClick={handleReadMoreClick}
+              />
+            </div>
+        </div>
+      </div>
 
-    <p>sign</p>
-
-</section>
-    );
+    
+      <div className="stats-container">
+        <div className="stat-box">
+          <h2>50M+</h2>
+          <p>organic views</p>
+        </div>
+        <div className="stat-box">
+          <h2>200.000+</h2>
+          <p>organic followers</p>
+        </div>
+        <div className="stat-box">
+          <h2>10M+</h2>
+          <p>likes</p>
+        </div>
+        <div className="stat-box">
+          <h2>100.000%+</h2>
+          <p>increased engagement</p>
+        </div>
+      </div>
+    </section>
+  );
 };
 
-export default SectionBaru;
+export default About;

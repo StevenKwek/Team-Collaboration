@@ -1,6 +1,3 @@
-
-
-/* Container utama */
 .container {
   display: flex;
   flex-direction: column;
@@ -18,16 +15,14 @@
   font-size: 36px;
 }
 
-/* Navbar dengan padding */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px; /* Padding lebih besar untuk navigasi */
+  padding: 20px 40px; 
   background-color: #f8f9fa;
 }
 
-/* Menu dalam navbar */
 .menu {
   display: flex;
   gap: 20px;
@@ -46,7 +41,7 @@
   height: auto;
 }
 
-/* Content styling */
+
 .content {
   margin: 10%;
   display: flex;
@@ -54,7 +49,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-grow: 1; /* Mengisi sisa ruang di container */
+  flex-grow: 1; 
   overflow-y: auto;
 }
 
@@ -68,7 +63,6 @@
   color: #ff69b4;
 }
 
-/* Tombol bantuan */
 .help-button {
   background-color: #ff5a5f;
   color: white;
@@ -85,3 +79,98 @@
 .help-button:hover {
   background-color: #ff8080;
 }
+
+
+
+/* Section about */
+section {
+  background-color: #E74C3C;
+  color: #FFFFFF;
+  font-family: 'Arial', sans-serif;
+  padding: 40px;
+  text-align: left;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  gap: 150px; 
+  margin-bottom: 40px; 
+}
+
+.image-container img {
+  max-width: 300px; 
+  height: auto;
+  border-radius: 8px; 
+}
+
+.description {
+  max-width: 400px; 
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.description p {
+  margin: 10px 0;
+}
+
+.description .highlight {
+  color: #F7DC6F;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.description .highlight span {
+  text-decoration: underline;
+}
+
+.read-more img {
+  margin-top: 20px;
+  width: 210px; 
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.read-more img:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px; 
+  margin-top: 30px;
+}
+
+.stat-box {
+  background-color: #F7DC6F;
+  border-radius: 50%;
+  padding: 30px; 
+  margin: 10px; 
+  min-width: 170px; 
+  text-align: center;
+}
+
+.stat-box h2 {
+  color: #4285F4;
+  margin: 0 0 10px 0; 
+  font-size: 24px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+}
+

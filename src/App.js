@@ -1,9 +1,8 @@
-// import logo from './logo.svg';
 import React from 'react';
 import logo from './images/Logo_Kawachud.png'
 import './App.css';
-import SectionBaru from './about.js';
 import logo2 from './images/content home.svg'
+import About from './about.js';
 
 function App() {
   return (
@@ -26,26 +25,9 @@ function App() {
         <button className="help-button">yes, pls help</button>
       </div>
 
-      <SectionBaru></SectionBaru>
+      <About></About>
     </div>
   );
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
 }
 
 export default App;
