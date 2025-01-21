@@ -211,3 +211,152 @@ section {
 .about{
   background-color: #ff5a5f;
 }
+
+
+/* Responsive Design */
+@media (max-width: 768px) { /* Tablet, iPad */
+  .container {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .content-image2 {
+    width: 150px;
+  }
+
+  .image-text-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .image-container img {
+    max-width: 250px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .stats-container {
+    gap: 40px;
+  }
+
+  .stat-box, .stat-box2 {
+    min-width: 150px;
+    padding: 20px;
+  }
+
+  .stat-box h2, .stat-box2 h2 {
+    font-size: 20px;
+  }
+
+  .stat-box p, .stat-box2 p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile */
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu a {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .content {
+    margin: 5%;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content-image2 {
+    width: 120px;
+  }
+
+  .image-text-container {
+    gap: 30px;
+  }
+
+  .image-container img {
+    max-width: 200px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .stats-container {
+    gap: 30px;
+  }
+
+  .stat-box, .stat-box2 {
+    min-width: 120px;
+    padding: 15px;
+  }
+
+  .stat-box h2, .stat-box2 h2 {
+    font-size: 18px;
+  }
+
+  .stat-box p, .stat-box2 p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) { /* Laptop, Desktop */
+  .navbar {
+    padding: 30px 50px;
+  }
+
+  .menu {
+    gap: 30px;
+  }
+
+  .content h1 {
+    font-size: 3.5rem;
+  }
+
+  .content-image2 {
+    width: 250px;
+  }
+
+  .stats-container {
+    gap: 100px;
+  }
+
+  .stat-box, .stat-box2 {
+    min-width: 200px;
+    padding: 40px;
+  }
+
+  .stat-box h2, .stat-box2 h2 {
+    font-size: 26px;
+  }
+
+  .stat-box p, .stat-box2 p {
+    font-size: 26px;
+  }
+}

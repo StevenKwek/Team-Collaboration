@@ -23,7 +23,9 @@ function App() {
 
       <div className="content">
       <img src={logo2} alt="Home Content" className="content-image" />
-      <img src={button1} alt="Button Content" className="content-image2" />
+      <a href="#">
+          <img src={button1} alt="Button Content" className="content-image2" />
+        </a>
       </div>
 
       <div id="about"> 
