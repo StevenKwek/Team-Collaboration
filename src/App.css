@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url(./images/Home.svg);
 }
 
 .about{
@@ -21,6 +22,7 @@
   align-items: center;
   padding: 20px 40px; 
   background-color: #f8f9fa;
+  background-image: url(./images/Home.svg);
 }
 
 .menu {
@@ -79,7 +81,6 @@
 .help-button:hover {
   background-color: #ff8080;
 }
-
 
 
 /* Section about */
@@ -174,3 +175,6 @@ section {
   margin: 0;
 }
 
+.about{
+  background-color: #ff5a5f;
+}
