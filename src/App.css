@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; 
+}
+
 @font-face {
   font-family: nanti;
   src: url('./fonts/TNanti-Demo.otf');
@@ -86,23 +90,6 @@
 
 .content span {
   color: #ff69b4;
-}
-
-.help-button {
-  background-color: #ff5a5f;
-  color: white;
-  border: none;
-  padding: 15px 40px;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 80px;
-  transition: background-color 0.3s ease;
-  font-weight: bold;
-}
-
-.help-button:hover {
-  background-color: #ff8080;
 }
 
 

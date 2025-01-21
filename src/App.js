@@ -24,10 +24,11 @@ function App() {
       <div className="content">
       <img src={logo2} alt="Home Content" className="content-image" />
       <img src={button1} alt="Button Content" className="content-image2" />
-        {/* <button className="help-button">yes, pls help</button> */}
       </div>
 
-      <About></About>
+      <div id="about"> 
+        <About />
+      </div>
     </div>
   );
 }
